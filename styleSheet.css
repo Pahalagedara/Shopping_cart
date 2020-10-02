@@ -1,0 +1,227 @@
+html {
+    min-width: 1000px;
+    position: relative;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.logo {
+    display: flex;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    display: block;
+    font-size: large;
+    color: rgba(0, 0, 0, 1);
+    padding: 15px 10px;
+}
+
+.nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(245, 245, 245);
+}
+
+form.search {
+    margin-left: 35%;
+    margin-top: 10px;
+}
+
+form.search input[type=text] {
+    padding: 10px;
+    border: 1px;
+    float: left;
+    background: rgb(248, 244, 244);
+    width: 30vw;
+}
+
+form.search button {
+    float: left;
+    padding: 10px;
+    background: #9bc3e4;
+    color: white;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.search button:hover {
+    background: #607374;
+}
+
+form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/*home page*/
+
+.upMiddle {
+    width: 80%;
+    margin: 50px auto;
+}
+
+form.signup,
+form.addItem {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form.signup input[type=text],
+form.signup input[type=password],
+form.signup input[type=email],
+form.signup select,
+form.addItem input[type=text],
+form.addItem input[type=password],
+form.addItem input[type=email],
+form.addItem input[type=number] {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+}
+
+input[type=file] {
+    float: left;
+    margin-left: 20%;
+    padding: 5px;
+}
+
+input[type=submit] {
+    float: right;
+}
+
+.row {
+    display: flex;
+    padding: 5px;
+}
+
+.col-25 {
+    margin-left: 60px;
+    padding: 10px 0;
+    float: left;
+    width: 15%;
+}
+
+.col-75 {
+    float: left;
+    width: 80%;
+}
+
+hr {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(9, 84, 132), rgba(0, 0, 0, 0));
+    width: 30%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*singup page ^*/
+
+.inMiddle {
+    width: 50%;
+    margin: 5% auto;
+}
+
+form.login {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+form.login input[type=text],
+form.login input[type=password] {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+}
+
+
+/*login*/
+
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/*Administrator*/
+
+.pending {
+    margin: 5px 0px;
+}
+
+.operation {
+    width: 80vw;
+    background-color: rgb(177, 101, 39);
+    margin: 5px auto;
+    padding: 10px;
+}
+
+.item {
+    display: flex;
+    margin: 5px 10%;
+    align-items: center;
+}
+
+.item ul li {
+    display: flex;
+}
+
+.description {
+    font-size: 110%;
+    padding: 2px;
+    float: left;
+    width: 8vw;
+    background-color: rgb(167, 190, 250);
+    margin: 1px 0;
+}
+
+.value {
+    padding: 2px;
+    float: left;
+    width: 20vw;
+    background-color: rgba(145, 221, 226, 0.76);
+    margin: 1px 0;
+}
+
+.approvals_button {
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    margin: 1px 0;
+    color: rgba(236, 236, 236, 0.966);
+    text-decoration: none;
+}
+
+.imageAline {
+    float: left;
+}
